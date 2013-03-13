@@ -1,0 +1,7 @@
+All-in-one SchemaSpy bundle.
+
+On the command line just run the following command
+to generate a schema for your chosen database :
+
+$ java -jar schemaSpy_5.0.0.jar -t mysql -o library -host localhost -db yourDb -u user -p password
+-dp mysql-connector-java-3.1.13-bin.jar
